@@ -1,8 +1,8 @@
 from typing import Union
 
 from colbert import Searcher
-from dexter.retriever.ColBERT.colbert.data import Queries
-from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.data import Queries
+from dexter.retriever.dense.ColBERT.colbert.infra.config import ColBERTConfig
 
 
 TextQueries = Union[str, 'list[str]', 'dict[int, str]', Queries]

@@ -5,8 +5,8 @@ import faiss
 from argparse import ArgumentParser
 
 import bcqa.retriever.ColBERT.colbert.utils.distributed as distributed
-from dexter.retriever.ColBERT.colbert.utils.runs import Run
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, timestamp, create_directory
+from dexter.retriever.dense.ColBERT.colbert.utils.runs import Run
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, timestamp, create_directory
 
 
 class Arguments():

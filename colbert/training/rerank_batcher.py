@@ -2,15 +2,15 @@ import os
 import ujson
 
 from functools import partial
-from dexter.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
-from dexter.retriever.ColBERT.colbert.utils.utils import flatten, print_message, zipstar
-from dexter.retriever.ColBERT.colbert.modeling.reranker.tokenizer import RerankerTokenizer
+from dexter.retriever.dense.ColBERT.colbert.infra.config.config import ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import flatten, print_message, zipstar
+from dexter.retriever.dense.ColBERT.colbert.modeling.reranker.tokenizer import RerankerTokenizer
 
-from dexter.retriever.ColBERT.colbert.data.collection import Collection
-from dexter.retriever.ColBERT.colbert.data.queries import Queries
-from dexter.retriever.ColBERT.colbert.data.examples import Examples
+from dexter.retriever.dense.ColBERT.colbert.data.collection import Collection
+from dexter.retriever.dense.ColBERT.colbert.data.queries import Queries
+from dexter.retriever.dense.ColBERT.colbert.data.examples import Examples
 
-# from dexter.retriever.ColBERT.colbert.utils.runs import Run
+# from dexter.retriever.dense.ColBERT.colbert.utils.runs import Run
 
 
 class RerankBatcher():

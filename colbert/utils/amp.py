@@ -1,7 +1,7 @@
 import torch
 
 from contextlib import contextmanager
-from dexter.retriever.ColBERT.colbert.utils.utils import NullContextManager
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import NullContextManager
 
 
 class MixedPrecisionManager():

@@ -5,18 +5,18 @@ import torch.nn as nn
 import numpy as np
 
 from transformers import AdamW, get_linear_schedule_with_warmup
-from dexter.retriever.ColBERT.colbert.infra import ColBERTConfig
-from dexter.retriever.ColBERT.colbert.training.rerank_batcher import RerankBatcher
+from dexter.retriever.dense.ColBERT.colbert.infra import ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.training.rerank_batcher import RerankBatcher
 
-from dexter.retriever.ColBERT.colbert.utils.amp import MixedPrecisionManager
-from dexter.retriever.ColBERT.colbert.training.lazy_batcher import LazyBatcher
-from dexter.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.dense.ColBERT.colbert.utils.amp import MixedPrecisionManager
+from dexter.retriever.dense.ColBERT.colbert.training.lazy_batcher import LazyBatcher
+from dexter.retriever.dense.ColBERT.colbert.parameters import DEVICE
 
-from dexter.retriever.ColBERT.colbert.modeling.colbert import ColBERT
-from dexter.retriever.ColBERT.colbert.modeling.reranker.electra import ElectraReranker
+from dexter.retriever.dense.ColBERT.colbert.modeling.colbert import ColBERT
+from dexter.retriever.dense.ColBERT.colbert.modeling.reranker.electra import ElectraReranker
 
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message
-from dexter.retriever.ColBERT.colbert.training.utils import print_progress, manage_checkpoints
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.dense.ColBERT.colbert.training.utils import print_progress, manage_checkpoints
 
 
 

@@ -4,7 +4,7 @@ import math
 import os
 from dotenv import load_dotenv
 
-from dexter.retriever.ColBERT.colbert.infra import Run, RunConfig, ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.infra import Run, RunConfig, ColBERTConfig
 from colbert import Searcher
 
 load_dotenv()

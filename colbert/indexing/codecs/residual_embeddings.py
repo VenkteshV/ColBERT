@@ -3,8 +3,8 @@ import torch
 import ujson
 import tqdm
 
-from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import ResidualEmbeddingsStrided
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import ResidualEmbeddingsStrided
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message
 
 class ResidualEmbeddings:
     Strided = ResidualEmbeddingsStrided

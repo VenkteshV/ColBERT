@@ -13,10 +13,10 @@ except RuntimeError:
 
 import bcqa.retriever.ColBERT.colbert.utils.distributed as distributed
 
-from dexter.retriever.ColBERT.colbert.infra.run import Run
-from dexter.retriever.ColBERT.colbert.infra.config import BaseConfig, RunConfig, RunSettings
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.infra.config import BaseConfig, RunConfig, RunSettings
 
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message
 
 
 class Launcher:

@@ -2,12 +2,12 @@ import os
 import torch
 import sys
 
-from dexter.retriever.ColBERT.colbert.utils.utils import torch_load_dnn
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import torch_load_dnn
 
 from transformers import AutoTokenizer
-from dexter.retriever.ColBERT.colbert.modeling.hf_colbert import class_factory
-from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig
-from dexter.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.dense.ColBERT.colbert.modeling.hf_colbert import class_factory
+from dexter.retriever.dense.ColBERT.colbert.infra.config import ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.parameters import DEVICE
 
 
 class BaseColBERT(torch.nn.Module):
@@ -68,8 +68,8 @@ if __name__ == '__main__':
     import random
     import numpy as np
 
-    from dexter.retriever.ColBERT.colbert.infra.run import Run
-    from dexter.retriever.ColBERT.colbert.infra.config import RunConfig
+    from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
+    from dexter.retriever.dense.ColBERT.colbert.infra.config import RunConfig
 
     random.seed(12345)
     np.random.seed(12345)

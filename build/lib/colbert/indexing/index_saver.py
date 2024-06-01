@@ -5,9 +5,9 @@ import threading
 
 from contextlib import contextmanager
 
-from dexter.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
+from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
 
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message
 
 
 class IndexSaver():

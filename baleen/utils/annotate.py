@@ -1,7 +1,7 @@
 import os
 import ujson
 
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, file_tqdm
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, file_tqdm
 
 
 def annotate_to_file(qas_path, ranking_path):

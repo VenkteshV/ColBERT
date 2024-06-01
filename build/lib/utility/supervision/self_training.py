@@ -6,7 +6,7 @@ import ujson
 import random
 
 from argparse import ArgumentParser
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, load_ranking, groupby_first_item
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, load_ranking, groupby_first_item
 
 
 MAX_NUM_TRIPLES = 40_000_000

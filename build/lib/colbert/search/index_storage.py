@@ -1,15 +1,15 @@
 import torch
 
-from dexter.retriever.ColBERT.colbert.utils.utils import flatten, print_message
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import flatten, print_message
 
-from dexter.retriever.ColBERT.colbert.indexing.loaders import load_doclens
-from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import ResidualEmbeddingsStrided
+from dexter.retriever.dense.ColBERT.colbert.indexing.loaders import load_doclens
+from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import ResidualEmbeddingsStrided
 
-from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
-from dexter.retriever.ColBERT.colbert.search.candidate_generation import CandidateGeneration
+from dexter.retriever.dense.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.dense.ColBERT.colbert.search.candidate_generation import CandidateGeneration
 
 from .index_loader import IndexLoader
-from dexter.retriever.ColBERT.colbert.modeling.colbert import colbert_score, colbert_score_packed, colbert_score_reduce
+from dexter.retriever.dense.ColBERT.colbert.modeling.colbert import colbert_score, colbert_score_packed, colbert_score_reduce
 
 from math import ceil
 

@@ -1,10 +1,10 @@
 import torch
 
-from dexter.retriever.ColBERT.colbert.modeling.hf_colbert import class_factory
-from dexter.retriever.ColBERT.colbert.infra import ColBERTConfig
-from dexter.retriever.ColBERT.colbert.modeling.tokenization.utils import _split_into_batches
-from dexter.retriever.ColBERT.colbert.utils.utils import batch
-from dexter.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.dense.ColBERT.colbert.modeling.hf_colbert import class_factory
+from dexter.retriever.dense.ColBERT.colbert.infra import ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.modeling.tokenization.utils import _split_into_batches
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import batch
+from dexter.retriever.dense.ColBERT.colbert.parameters import DEVICE
 
 
 class QueryTokenizer():

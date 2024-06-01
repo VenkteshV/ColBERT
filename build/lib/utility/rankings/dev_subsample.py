@@ -4,8 +4,8 @@ import random
 
 from argparse import ArgumentParser
 
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, create_directory, load_ranking, groupby_first_item
-from dexter.retriever.ColBERT.utility.utils.qa_loaders import load_qas_
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, create_directory, load_ranking, groupby_first_item
+from dexter.retriever.dense.ColBERT.utility.utils.qa_loaders import load_qas_
 
 
 def main(args):

@@ -5,11 +5,11 @@ import random
 
 from collections import defaultdict, OrderedDict
 
-from dexter.retriever.ColBERT.colbert.parameters import DEVICE
-from dexter.retriever.ColBERT.colbert.modeling.colbert import ColBERT
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, load_checkpoint
-from dexter.retriever.ColBERT.colbert.evaluation.load_model import load_model
-from dexter.retriever.ColBERT.colbert.utils.runs import Run
+from dexter.retriever.dense.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.dense.ColBERT.colbert.modeling.colbert import ColBERT
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, load_checkpoint
+from dexter.retriever.dense.ColBERT.colbert.evaluation.load_model import load_model
+from dexter.retriever.dense.ColBERT.colbert.utils.runs import Run
 
 
 def load_queries(queries_path):

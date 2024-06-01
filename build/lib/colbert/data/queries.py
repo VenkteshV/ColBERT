@@ -1,8 +1,8 @@
-from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
 import os
 import ujson
 
-from dexter.retriever.ColBERT.colbert.evaluation.loaders import load_queries
+from dexter.retriever.dense.ColBERT.colbert.evaluation.loaders import load_queries
 
 # TODO: Look up path in some global [per-thread or thread-safe] list.
 # TODO: path could be a list of paths...? But then how can we tell it's not a list of queries..

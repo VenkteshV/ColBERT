@@ -5,7 +5,7 @@ from datasets import load_dataset
 import tqdm
 
 from colbert import Indexer, Searcher, IndexUpdater
-from dexter.retriever.ColBERT.colbert.infra import ColBERTConfig, RunConfig, Run
+from dexter.retriever.dense.ColBERT.colbert.infra import ColBERTConfig, RunConfig, Run
 
 SquadExample = namedtuple("SquadExample", "id title context question answers")
 

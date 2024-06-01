@@ -1,6 +1,6 @@
 
-from dexter.retriever.ColBERT.colbert.infra.run import Run
-from dexter.retriever.ColBERT.colbert.data.collection import Collection
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.data.collection import Collection
 import os
 import sys
 import git
@@ -11,12 +11,12 @@ import random
 from argparse import ArgumentParser
 from multiprocessing import Pool
 
-from dexter.retriever.ColBERT.colbert.utils.utils import groupby_first_item, print_message
-from dexter.retriever.ColBERT.utility.utils.qa_loaders import load_qas_, load_collection_
-from dexter.retriever.ColBERT.utility.utils.save_metadata import format_metadata, get_metadata
-from dexter.retriever.ColBERT.utility.evaluate.annotate_EM_helpers import *
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import groupby_first_item, print_message
+from dexter.retriever.dense.ColBERT.utility.utils.qa_loaders import load_qas_, load_collection_
+from dexter.retriever.dense.ColBERT.utility.utils.save_metadata import format_metadata, get_metadata
+from dexter.retriever.dense.ColBERT.utility.evaluate.annotate_EM_helpers import *
 
-from dexter.retriever.ColBERT.colbert.data.ranking import Ranking
+from dexter.retriever.dense.ColBERT.colbert.data.ranking import Ranking
 
 
 class AnnotateEM:

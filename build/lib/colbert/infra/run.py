@@ -1,10 +1,10 @@
 import os
 import atexit
 
-from dexter.retriever.ColBERT.colbert.utils.utils import create_directory, print_message, timestamp
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import create_directory, print_message, timestamp
 from contextlib import contextmanager
 
-from dexter.retriever.ColBERT.colbert.infra.config import RunConfig
+from dexter.retriever.dense.ColBERT.colbert.infra.config import RunConfig
 
 
 class Run(object):

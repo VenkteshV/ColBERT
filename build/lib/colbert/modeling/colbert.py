@@ -1,8 +1,8 @@
-from dexter.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
-from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, flatten
-from dexter.retriever.ColBERT.colbert.modeling.base_colbert import BaseColBERT
-from dexter.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.dense.ColBERT.colbert.infra.config.config import ColBERTConfig
+from dexter.retriever.dense.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, flatten
+from dexter.retriever.dense.ColBERT.colbert.modeling.base_colbert import BaseColBERT
+from dexter.retriever.dense.ColBERT.colbert.parameters import DEVICE
 
 import torch
 import string

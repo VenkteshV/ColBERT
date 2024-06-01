@@ -1,11 +1,11 @@
 import os
 import tqdm
 import ujson
-from dexter.retriever.ColBERT.colbert.infra.provenance import Provenance
+from dexter.retriever.dense.ColBERT.colbert.infra.provenance import Provenance
 
-from dexter.retriever.ColBERT.colbert.infra.run import Run
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, groupby_first_item
-from dexter.retriever.ColBERT.utility.utils.save_metadata import get_metadata_only
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, groupby_first_item
+from dexter.retriever.dense.ColBERT.utility.utils.save_metadata import get_metadata_only
 
 
 def numericize(v):

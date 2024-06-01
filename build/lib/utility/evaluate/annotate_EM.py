@@ -8,10 +8,10 @@ import random
 from argparse import ArgumentParser
 from multiprocessing import Pool
 
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, load_ranking, groupby_first_item
-from dexter.retriever.ColBERT.utility.utils.qa_loaders import load_qas_, load_collection_
-from dexter.retriever.ColBERT.utility.utils.save_metadata import format_metadata, get_metadata
-from dexter.retriever.ColBERT.utility.evaluate.annotate_EM_helpers import *
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, load_ranking, groupby_first_item
+from dexter.retriever.dense.ColBERT.utility.utils.qa_loaders import load_qas_, load_collection_
+from dexter.retriever.dense.ColBERT.utility.utils.save_metadata import format_metadata, get_metadata
+from dexter.retriever.dense.ColBERT.utility.evaluate.annotate_EM_helpers import *
 
 
 # TODO: Tokenize passages in advance, especially if the ranked list is long! This requires changes to the has_answer input, slightly.

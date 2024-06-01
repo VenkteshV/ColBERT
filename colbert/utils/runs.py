@@ -8,8 +8,8 @@ import traceback
 import bcqa.retriever.ColBERT.colbert.utils.distributed as distributed
 
 from contextlib import contextmanager
-from dexter.retriever.ColBERT.colbert.utils.logging import Logger
-from dexter.retriever.ColBERT.colbert.utils.utils import timestamp, create_directory, print_message
+from dexter.retriever.dense.ColBERT.colbert.utils.logging import Logger
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import timestamp, create_directory, print_message
 
 
 class _RunManager():

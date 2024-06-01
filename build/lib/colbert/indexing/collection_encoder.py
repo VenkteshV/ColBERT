@@ -1,7 +1,7 @@
 import torch
 
-from dexter.retriever.ColBERT.colbert.infra.run import Run
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, batch
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, batch
 
 
 class CollectionEncoder():

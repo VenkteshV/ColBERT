@@ -3,7 +3,7 @@ import random
 
 import numpy as np
 
-from dexter.retriever.ColBERT.colbert.utils.utils import flatten
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import flatten
 
 
 """

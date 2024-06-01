@@ -4,22 +4,22 @@ import torch
 import numpy as np
 import tqdm
 
-from dexter.retriever.ColBERT.colbert.search.index_loader import IndexLoader
-from dexter.retriever.ColBERT.colbert.indexing.index_saver import IndexSaver
-from dexter.retriever.ColBERT.colbert.indexing.collection_encoder import CollectionEncoder
+from dexter.retriever.dense.ColBERT.colbert.search.index_loader import IndexLoader
+from dexter.retriever.dense.ColBERT.colbert.indexing.index_saver import IndexSaver
+from dexter.retriever.dense.ColBERT.colbert.indexing.collection_encoder import CollectionEncoder
 
-from dexter.retriever.ColBERT.colbert.utils.utils import lengths2offsets, print_message, dotdict, flatten
-from dexter.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
-from dexter.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
-from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
-from dexter.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
-from dexter.retriever.ColBERT.colbert.utils.utils import print_message, batch
-from dexter.retriever.ColBERT.colbert.data import Collection
-from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings import ResidualEmbeddings
-from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import (
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import lengths2offsets, print_message, dotdict, flatten
+from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
+from dexter.retriever.dense.ColBERT.colbert.indexing.utils import optimize_ivf
+from dexter.retriever.dense.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.dense.ColBERT.colbert.modeling.checkpoint import Checkpoint
+from dexter.retriever.dense.ColBERT.colbert.utils.utils import print_message, batch
+from dexter.retriever.dense.ColBERT.colbert.data import Collection
+from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual_embeddings import ResidualEmbeddings
+from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import (
     ResidualEmbeddingsStrided,
 )
-from dexter.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
+from dexter.retriever.dense.ColBERT.colbert.indexing.utils import optimize_ivf
 
 # For testing writing into new chunks, can set DEFAULT_CHUNKSIZE smaller (e.g. 1 or 2)
 DEFAULT_CHUNKSIZE = 25000

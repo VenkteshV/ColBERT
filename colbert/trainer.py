@@ -1,8 +1,8 @@
-from dexter.retriever.ColBERT.colbert.infra.run import Run
-from dexter.retriever.ColBERT.colbert.infra.launcher import Launcher
-from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.infra.launcher import Launcher
+from dexter.retriever.dense.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
 
-from dexter.retriever.ColBERT.colbert.training.training import train
+from dexter.retriever.dense.ColBERT.colbert.training.training import train
 
 
 class Trainer:

@@ -7,8 +7,8 @@
 import os
 import itertools
 
-from dexter.retriever.ColBERT.colbert.evaluation.loaders import load_collection
-from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.dense.ColBERT.colbert.evaluation.loaders import load_collection
+from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
 
 
 class Collection:
