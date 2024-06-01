@@ -13,7 +13,7 @@ import numpy as np
 import torch.multiprocessing as mp
 from dexter.retriever.dense.ColBERT.colbert.infra.config.config import ColBERTConfig
 
-import dexter.retriever.denseColBERT.colbert.utils.distributed as distributed
+import dexter.retriever.dense.ColBERT.colbert.utils.distributed as distributed
 
 from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
 from dexter.retriever.dense.ColBERT.colbert.infra.launcher import print_memory_stats
