@@ -11,7 +11,7 @@ try:
 except RuntimeError:
     pass
 
-import bcqa.retriever.ColBERT.colbert.utils.distributed as distributed
+import dexter.retriever.denseColBERT.colbert.utils.distributed as distributed
 
 from dexter.retriever.dense.ColBERT.colbert.infra.run import Run
 from dexter.retriever.dense.ColBERT.colbert.infra.config import BaseConfig, RunConfig, RunSettings

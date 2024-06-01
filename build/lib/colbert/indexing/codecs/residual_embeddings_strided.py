@@ -1,5 +1,5 @@
 # from dexter.retriever.dense.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
-import bcqa.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings as residual_embeddings
+import dexter.retriever.denseColBERT.colbert.indexing.codecs.residual_embeddings as residual_embeddings
 
 from dexter.retriever.dense.ColBERT.colbert.search.strided_tensor import StridedTensor
 

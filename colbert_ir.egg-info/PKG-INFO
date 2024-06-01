@@ -156,7 +156,7 @@ You can optionally specify the `ncells`, `centroid_score_threshold`, and `ndocs`
 We can evaluate the MSMARCO rankings using the following command:
 
 ```
-python -m bcqa.retriever.ColBERT.utility.evaluate.msmarco_passages --ranking "/path/to/msmarco.nbits=2.ranking.tsv" --qrels "/path/to/MSMARCO/qrels.dev.small.tsv"
+python -m dexter.retriever.denseColBERT.utility.evaluate.msmarco_passages --ranking "/path/to/msmarco.nbits=2.ranking.tsv" --qrels "/path/to/MSMARCO/qrels.dev.small.tsv"
 ```
 
 ## Training

@@ -5,7 +5,7 @@ import __main__
 import traceback
 # import mlflow
 
-import bcqa.retriever.ColBERT.colbert.utils.distributed as distributed
+import dexter.retriever.denseColBERT.colbert.utils.distributed as distributed
 
 from contextlib import contextmanager
 from dexter.retriever.dense.ColBERT.colbert.utils.logging import Logger

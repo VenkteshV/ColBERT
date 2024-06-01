@@ -56,7 +56,7 @@ def train(config: ColBERTConfig, triples, queries=None, collection=None):
                                                         output_device=config.rank,
                                                         find_unused_parameters=True)
 
-    optimizer = AdamW(filter(lambda p: p.requires_grad, bcqa.retriever.ColBERT.colbert.parameters()), lr=config.lr, eps=1e-8)
+    optimizer = AdamW(filter(lambda p: p.requires_grad, dexter.retriever.denseColBERT.colbert.parameters()), lr=config.lr, eps=1e-8)
     optimizer.zero_grad()
 
     scheduler = None
