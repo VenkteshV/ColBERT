@@ -1,9 +1,9 @@
 import os
 import random
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import create_directory
+from dexter.retriever.ColBERT.colbert.utils.utils import create_directory
 
-from bcqa.retriever.ColBERT.colbert.data import Collection, Queries, Ranking
+from dexter.retriever.ColBERT.colbert.data import Collection, Queries, Ranking
 
 
 def sample_minicorpus(name, factor, topk=30, maxdev=3000):

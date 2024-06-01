@@ -6,9 +6,9 @@ import dataclasses
 from typing import Any
 from collections import defaultdict
 from dataclasses import dataclass, fields
-from bcqa.retriever.ColBERT.colbert.utils.utils import timestamp, torch_load_dnn
+from dexter.retriever.ColBERT.colbert.utils.utils import timestamp, torch_load_dnn
 
-from bcqa.retriever.ColBERT.utility.utils.save_metadata import get_metadata_only
+from dexter.retriever.ColBERT.utility.utils.save_metadata import get_metadata_only
 
 
 @dataclass

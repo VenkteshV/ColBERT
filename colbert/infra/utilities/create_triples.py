@@ -1,11 +1,11 @@
 import random
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message
-from bcqa.retriever.ColBERT.utility.utils.save_metadata import save_metadata
-from bcqa.retriever.ColBERT.utility.supervision.triples import sample_for_query
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.ColBERT.utility.utils.save_metadata import save_metadata
+from dexter.retriever.ColBERT.utility.supervision.triples import sample_for_query
 
-from bcqa.retriever.ColBERT.colbert.data.ranking import Ranking
-from bcqa.retriever.ColBERT.colbert.data.examples import Examples
+from dexter.retriever.ColBERT.colbert.data.ranking import Ranking
+from dexter.retriever.ColBERT.colbert.data.examples import Examples
 
 MAX_NUM_TRIPLES = 40_000_000
 

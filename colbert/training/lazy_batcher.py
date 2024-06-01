@@ -2,16 +2,16 @@ import os
 import ujson
 
 from functools import partial
-from bcqa.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, zipstar
-from bcqa.retriever.ColBERT.colbert.modeling.tokenization import QueryTokenizer, DocTokenizer, tensorize_triples
-from bcqa.retriever.ColBERT.colbert.evaluation.loaders import load_collection
+from dexter.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, zipstar
+from dexter.retriever.ColBERT.colbert.modeling.tokenization import QueryTokenizer, DocTokenizer, tensorize_triples
+from dexter.retriever.ColBERT.colbert.evaluation.loaders import load_collection
 
-from bcqa.retriever.ColBERT.colbert.data.collection import Collection
-from bcqa.retriever.ColBERT.colbert.data.queries import Queries
-from bcqa.retriever.ColBERT.colbert.data.examples import Examples
+from dexter.retriever.ColBERT.colbert.data.collection import Collection
+from dexter.retriever.ColBERT.colbert.data.queries import Queries
+from dexter.retriever.ColBERT.colbert.data.examples import Examples
 
-# from bcqa.retriever.ColBERT.colbert.utils.runs import Run
+# from dexter.retriever.ColBERT.colbert.utils.runs import Run
 
 
 class LazyBatcher():

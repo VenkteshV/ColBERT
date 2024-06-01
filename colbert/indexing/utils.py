@@ -2,8 +2,8 @@ import os
 import torch
 import tqdm
 
-from bcqa.retriever.ColBERT.colbert.indexing.loaders import load_doclens
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, flatten
+from dexter.retriever.ColBERT.colbert.indexing.loaders import load_doclens
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, flatten
 
 def optimize_ivf(orig_ivf, orig_ivf_lengths, index_path, verbose:int=3):
     if verbose > 1:

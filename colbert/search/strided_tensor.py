@@ -2,7 +2,7 @@ from struct import pack
 import torch
 from torch._C import device
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import flatten, print_message
+from dexter.retriever.ColBERT.colbert.utils.utils import flatten, print_message
 
 from .strided_tensor_core import StridedTensorCore, _create_mask, _create_view
 

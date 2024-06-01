@@ -1,8 +1,8 @@
 import torch
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import load_checkpoint
-from bcqa.retriever.ColBERT.colbert.utils.amp import MixedPrecisionManager
-from bcqa.retriever.ColBERT.colbert.utils.utils import flatten
+from dexter.retriever.ColBERT.colbert.utils.utils import load_checkpoint
+from dexter.retriever.ColBERT.colbert.utils.amp import MixedPrecisionManager
+from dexter.retriever.ColBERT.colbert.utils.utils import flatten
 
 from baleen.utils.loaders import *
 from baleen.condenser.model import ElectraReader

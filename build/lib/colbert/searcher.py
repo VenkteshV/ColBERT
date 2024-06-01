@@ -4,15 +4,15 @@ import torch
 from tqdm import tqdm
 from typing import Union
 
-from bcqa.retriever.ColBERT.colbert.data import Collection, Queries, Ranking
+from dexter.retriever.ColBERT.colbert.data import Collection, Queries, Ranking
 
-from bcqa.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
-from bcqa.retriever.ColBERT.colbert.search.index_storage import IndexScorer
+from dexter.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
+from dexter.retriever.ColBERT.colbert.search.index_storage import IndexScorer
 
-from bcqa.retriever.ColBERT.colbert.infra.provenance import Provenance
-from bcqa.retriever.ColBERT.colbert.infra.run import Run
-from bcqa.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
-from bcqa.retriever.ColBERT.colbert.infra.launcher import print_memory_stats
+from dexter.retriever.ColBERT.colbert.infra.provenance import Provenance
+from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
+from dexter.retriever.ColBERT.colbert.infra.launcher import print_memory_stats
 
 import time
 

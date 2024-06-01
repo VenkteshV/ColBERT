@@ -3,10 +3,10 @@ import tqdm
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-from bcqa.retriever.ColBERT.colbert.infra.launcher import Launcher
-from bcqa.retriever.ColBERT.colbert.infra import Run, RunConfig
-from bcqa.retriever.ColBERT.colbert.modeling.reranker.electra import ElectraReranker
-from bcqa.retriever.ColBERT.colbert.utils.utils import flatten
+from dexter.retriever.ColBERT.colbert.infra.launcher import Launcher
+from dexter.retriever.ColBERT.colbert.infra import Run, RunConfig
+from dexter.retriever.ColBERT.colbert.modeling.reranker.electra import ElectraReranker
+from dexter.retriever.ColBERT.colbert.utils.utils import flatten
 
 
 DEFAULT_MODEL = 'cross-encoder/ms-marco-MiniLM-L-6-v2'

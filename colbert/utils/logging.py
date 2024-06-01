@@ -5,7 +5,7 @@ import ujson
 import traceback
 
 # from torch.utils.tensorboard import SummaryWriter
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, create_directory
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, create_directory
 
 
 class Logger():

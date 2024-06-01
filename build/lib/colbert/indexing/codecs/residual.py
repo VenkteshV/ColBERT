@@ -7,9 +7,9 @@ import torch
 import numpy as np
 from itertools import product
 
-from bcqa.retriever.ColBERT.colbert.infra.config import ColBERTConfig
-from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings import ResidualEmbeddings
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig
+from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings import ResidualEmbeddings
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message
 
 import pathlib
 from torch.utils.cpp_extension import load

@@ -2,10 +2,10 @@ import os
 import ujson
 
 from functools import partial
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message
-from bcqa.retriever.ColBERT.colbert.modeling.tokenization import QueryTokenizer, DocTokenizer, tensorize_triples
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.ColBERT.colbert.modeling.tokenization import QueryTokenizer, DocTokenizer, tensorize_triples
 
-from bcqa.retriever.ColBERT.colbert.utils.runs import Run
+from dexter.retriever.ColBERT.colbert.utils.runs import Run
 
 
 class EagerBatcher():

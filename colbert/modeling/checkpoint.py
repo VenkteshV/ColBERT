@@ -2,10 +2,10 @@ import torch
 
 from tqdm import tqdm
 
-from bcqa.retriever.ColBERT.colbert.modeling.tokenization import QueryTokenizer, DocTokenizer
-from bcqa.retriever.ColBERT.colbert.utils.amp import MixedPrecisionManager
+from dexter.retriever.ColBERT.colbert.modeling.tokenization import QueryTokenizer, DocTokenizer
+from dexter.retriever.ColBERT.colbert.utils.amp import MixedPrecisionManager
 
-from bcqa.retriever.ColBERT.colbert.modeling.colbert import ColBERT
+from dexter.retriever.ColBERT.colbert.modeling.colbert import ColBERT
 
 
 class Checkpoint(ColBERT):

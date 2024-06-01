@@ -1,8 +1,8 @@
-from bcqa.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
-from bcqa.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, flatten
-from bcqa.retriever.ColBERT.colbert.modeling.base_colbert import BaseColBERT
-from bcqa.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
+from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, flatten
+from dexter.retriever.ColBERT.colbert.modeling.base_colbert import BaseColBERT
+from dexter.retriever.ColBERT.colbert.parameters import DEVICE
 
 import torch
 import string

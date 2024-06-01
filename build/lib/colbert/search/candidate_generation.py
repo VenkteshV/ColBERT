@@ -1,6 +1,6 @@
 import torch
 
-from bcqa.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
 from .strided_tensor_core import _create_mask, _create_view
 
 

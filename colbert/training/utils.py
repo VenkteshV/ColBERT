@@ -1,10 +1,10 @@
 import os
 import torch
 
-# from bcqa.retriever.ColBERT.colbert.utils.runs import Run
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, save_checkpoint
-from bcqa.retriever.ColBERT.colbert.parameters import SAVED_CHECKPOINTS
-from bcqa.retriever.ColBERT.colbert.infra.run import Run
+# from dexter.retriever.ColBERT.colbert.utils.runs import Run
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, save_checkpoint
+from dexter.retriever.ColBERT.colbert.parameters import SAVED_CHECKPOINTS
+from dexter.retriever.ColBERT.colbert.infra.run import Run
 
 
 def print_progress(scores):

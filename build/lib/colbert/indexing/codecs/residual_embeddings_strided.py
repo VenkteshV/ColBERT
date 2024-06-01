@@ -1,7 +1,7 @@
-# from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
+# from dexter.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
 import bcqa.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings as residual_embeddings
 
-from bcqa.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
 
 class ResidualEmbeddingsStrided:
     def __init__(self, codec, embeddings, doclens):

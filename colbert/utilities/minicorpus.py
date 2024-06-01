@@ -1,11 +1,11 @@
 import os
 import random
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import create_directory
+from dexter.retriever.ColBERT.colbert.utils.utils import create_directory
 
-from bcqa.retriever.ColBERT.colbert.data.collection import Collection
-from bcqa.retriever.ColBERT.colbert.data.queries import Queries
-from bcqa.retriever.ColBERT.colbert.data.ranking import Ranking
+from dexter.retriever.ColBERT.colbert.data.collection import Collection
+from dexter.retriever.ColBERT.colbert.data.queries import Queries
+from dexter.retriever.ColBERT.colbert.data.ranking import Ranking
 
 
 def sample_minicorpus(name, factor, topk=30, maxdev=3000):

@@ -5,9 +5,9 @@ import random
 
 from collections import defaultdict, OrderedDict
 
-from bcqa.retriever.ColBERT.colbert.parameters import DEVICE
-from bcqa.retriever.ColBERT.colbert.modeling.colbert import ColBERT
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, load_checkpoint
+from dexter.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.ColBERT.colbert.modeling.colbert import ColBERT
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, load_checkpoint
 
 
 def load_model(args, do_print=True):

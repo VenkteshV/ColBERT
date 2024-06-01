@@ -1,5 +1,5 @@
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message
-from bcqa.retriever.ColBERT.utility.utils.dpr import DPR_normalize, has_answer
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.ColBERT.utility.utils.dpr import DPR_normalize, has_answer
 
 
 def tokenize_all_answers(args):

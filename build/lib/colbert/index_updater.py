@@ -4,22 +4,22 @@ import torch
 import numpy as np
 import tqdm
 
-from bcqa.retriever.ColBERT.colbert.search.index_loader import IndexLoader
-from bcqa.retriever.ColBERT.colbert.indexing.index_saver import IndexSaver
-from bcqa.retriever.ColBERT.colbert.indexing.collection_encoder import CollectionEncoder
+from dexter.retriever.ColBERT.colbert.search.index_loader import IndexLoader
+from dexter.retriever.ColBERT.colbert.indexing.index_saver import IndexSaver
+from dexter.retriever.ColBERT.colbert.indexing.collection_encoder import CollectionEncoder
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import lengths2offsets, print_message, dotdict, flatten
-from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
-from bcqa.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
-from bcqa.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
-from bcqa.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, batch
-from bcqa.retriever.ColBERT.colbert.data import Collection
-from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings import ResidualEmbeddings
-from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import (
+from dexter.retriever.ColBERT.colbert.utils.utils import lengths2offsets, print_message, dotdict, flatten
+from dexter.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
+from dexter.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
+from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, batch
+from dexter.retriever.ColBERT.colbert.data import Collection
+from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings import ResidualEmbeddings
+from dexter.retriever.ColBERT.colbert.indexing.codecs.residual_embeddings_strided import (
     ResidualEmbeddingsStrided,
 )
-from bcqa.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
+from dexter.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
 
 # For testing writing into new chunks, can set DEFAULT_CHUNKSIZE smaller (e.g. 1 or 2)
 DEFAULT_CHUNKSIZE = 25000

@@ -1,4 +1,4 @@
-from bcqa.retriever.ColBERT.colbert.utils.utils import dotdict
+from dexter.retriever.ColBERT.colbert.utils.utils import dotdict
 import os
 import sys
 import git

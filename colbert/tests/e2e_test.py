@@ -2,11 +2,11 @@ import os
 import argparse
 from collections import namedtuple
 from datasets import load_dataset
-from bcqa.retriever.ColBERT.utility.utils.dpr import has_answer, DPR_normalize
+from dexter.retriever.ColBERT.utility.utils.dpr import has_answer, DPR_normalize
 import tqdm
 
 from colbert import Indexer, Searcher
-from bcqa.retriever.ColBERT.colbert.infra import ColBERTConfig, RunConfig, Run
+from dexter.retriever.ColBERT.colbert.infra import ColBERTConfig, RunConfig, Run
 
 SquadExample = namedtuple("SquadExample", "id title context question answers")
 

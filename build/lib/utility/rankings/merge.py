@@ -7,7 +7,7 @@ import tqdm
 
 from argparse import ArgumentParser
 from collections import defaultdict
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, file_tqdm
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, file_tqdm
 
 
 def main(args):

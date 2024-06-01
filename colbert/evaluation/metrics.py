@@ -1,7 +1,7 @@
 import ujson
 
 from collections import defaultdict
-from bcqa.retriever.ColBERT.colbert.utils.runs import Run
+from dexter.retriever.ColBERT.colbert.utils.runs import Run
 
 
 class Metrics:

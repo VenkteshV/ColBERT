@@ -11,21 +11,21 @@ except ImportError as e:
 
 import numpy as np
 import torch.multiprocessing as mp
-from bcqa.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
+from dexter.retriever.ColBERT.colbert.infra.config.config import ColBERTConfig
 
 import bcqa.retriever.ColBERT.colbert.utils.distributed as distributed
 
-from bcqa.retriever.ColBERT.colbert.infra.run import Run
-from bcqa.retriever.ColBERT.colbert.infra.launcher import print_memory_stats
-from bcqa.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
-from bcqa.retriever.ColBERT.colbert.data.collection import Collection
+from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.ColBERT.colbert.infra.launcher import print_memory_stats
+from dexter.retriever.ColBERT.colbert.modeling.checkpoint import Checkpoint
+from dexter.retriever.ColBERT.colbert.data.collection import Collection
 
-from bcqa.retriever.ColBERT.colbert.indexing.collection_encoder import CollectionEncoder
-from bcqa.retriever.ColBERT.colbert.indexing.index_saver import IndexSaver
-from bcqa.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
-from bcqa.retriever.ColBERT.colbert.utils.utils import flatten, print_message
+from dexter.retriever.ColBERT.colbert.indexing.collection_encoder import CollectionEncoder
+from dexter.retriever.ColBERT.colbert.indexing.index_saver import IndexSaver
+from dexter.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
+from dexter.retriever.ColBERT.colbert.utils.utils import flatten, print_message
 
-from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
+from dexter.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
 
 
 def encode(config, collection, shared_lists, shared_queues, verbose: int = 3):

@@ -4,10 +4,10 @@ import torch
 import numpy as np
 import tqdm
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import lengths2offsets, print_message, dotdict, flatten
-from bcqa.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
-from bcqa.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
-from bcqa.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
+from dexter.retriever.ColBERT.colbert.utils.utils import lengths2offsets, print_message, dotdict, flatten
+from dexter.retriever.ColBERT.colbert.indexing.codecs.residual import ResidualCodec
+from dexter.retriever.ColBERT.colbert.indexing.utils import optimize_ivf
+from dexter.retriever.ColBERT.colbert.search.strided_tensor import StridedTensor
 
 
 class IndexLoader:

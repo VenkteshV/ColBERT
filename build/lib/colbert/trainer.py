@@ -1,8 +1,8 @@
-from bcqa.retriever.ColBERT.colbert.infra.run import Run
-from bcqa.retriever.ColBERT.colbert.infra.launcher import Launcher
-from bcqa.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
+from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.ColBERT.colbert.infra.launcher import Launcher
+from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
 
-from bcqa.retriever.ColBERT.colbert.training.training import train
+from dexter.retriever.ColBERT.colbert.training.training import train
 
 
 class Trainer:

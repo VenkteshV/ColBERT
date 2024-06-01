@@ -3,7 +3,7 @@ import time
 import torch
 import ujson
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import f7, print_message, timestamp
+from dexter.retriever.ColBERT.colbert.utils.utils import f7, print_message, timestamp
 
 
 def load_contexts(first_hop_topk_path):

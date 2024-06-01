@@ -2,10 +2,10 @@ import torch
 
 # from transformers import BertTokenizerFast
 
-from bcqa.retriever.ColBERT.colbert.modeling.hf_colbert import class_factory
-from bcqa.retriever.ColBERT.colbert.infra import ColBERTConfig
-from bcqa.retriever.ColBERT.colbert.modeling.tokenization.utils import _split_into_batches, _sort_by_length
-from bcqa.retriever.ColBERT.colbert.parameters import DEVICE
+from dexter.retriever.ColBERT.colbert.modeling.hf_colbert import class_factory
+from dexter.retriever.ColBERT.colbert.infra import ColBERTConfig
+from dexter.retriever.ColBERT.colbert.modeling.tokenization.utils import _split_into_batches, _sort_by_length
+from dexter.retriever.ColBERT.colbert.parameters import DEVICE
 
 class DocTokenizer():
     def __init__(self, config: ColBERTConfig):

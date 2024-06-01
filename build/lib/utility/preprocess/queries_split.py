@@ -9,7 +9,7 @@ import random
 
 from argparse import ArgumentParser
 from collections import OrderedDict
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message
 
 
 def main(args):

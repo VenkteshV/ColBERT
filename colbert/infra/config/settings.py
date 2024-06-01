@@ -3,7 +3,7 @@ import torch
 
 import __main__
 from dataclasses import dataclass
-from bcqa.retriever.ColBERT.colbert.utils.utils import timestamp
+from dexter.retriever.ColBERT.colbert.utils.utils import timestamp
 
 from .core_config import DefaultVal
 

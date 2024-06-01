@@ -1,7 +1,7 @@
 import torch
 
-from bcqa.retriever.ColBERT.colbert.infra.run import Run
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, batch
+from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, batch
 
 
 class CollectionEncoder():

@@ -3,13 +3,13 @@ import ujson
 
 from collections import defaultdict
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, zipstar
-from bcqa.retriever.ColBERT.utility.utils.save_metadata import get_metadata_only
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, zipstar
+from dexter.retriever.ColBERT.utility.utils.save_metadata import get_metadata_only
 
-from bcqa.retriever.ColBERT.colbert.infra import Run
-from bcqa.retriever.ColBERT.colbert.data import Ranking
-from bcqa.retriever.ColBERT.colbert.infra.provenance import Provenance
-from bcqa.retriever.ColBERT.colbert.distillation.scorer import Scorer
+from dexter.retriever.ColBERT.colbert.infra import Run
+from dexter.retriever.ColBERT.colbert.data import Ranking
+from dexter.retriever.ColBERT.colbert.infra.provenance import Provenance
+from dexter.retriever.ColBERT.colbert.distillation.scorer import Scorer
 
 
 class RankingScorer:

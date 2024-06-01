@@ -10,8 +10,8 @@ import ujson
 import random
 
 from argparse import ArgumentParser
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, load_ranking, groupby_first_item, create_directory
-from bcqa.retriever.ColBERT.utility.utils.save_metadata import save_metadata
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, load_ranking, groupby_first_item, create_directory
+from dexter.retriever.ColBERT.utility.utils.save_metadata import save_metadata
 
 
 MAX_NUM_TRIPLES = 40_000_000

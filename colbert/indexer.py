@@ -3,13 +3,13 @@ import time
 
 import torch.multiprocessing as mp
 
-from bcqa.retriever.ColBERT.colbert.infra.run import Run
-from bcqa.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
-from bcqa.retriever.ColBERT.colbert.infra.launcher import Launcher
+from dexter.retriever.ColBERT.colbert.infra.run import Run
+from dexter.retriever.ColBERT.colbert.infra.config import ColBERTConfig, RunConfig
+from dexter.retriever.ColBERT.colbert.infra.launcher import Launcher
 
-from bcqa.retriever.ColBERT.colbert.utils.utils import create_directory, print_message
+from dexter.retriever.ColBERT.colbert.utils.utils import create_directory, print_message
 
-from bcqa.retriever.ColBERT.colbert.indexing.collection_indexer import encode
+from dexter.retriever.ColBERT.colbert.indexing.collection_indexer import encode
 
 
 class Indexer:

@@ -3,8 +3,8 @@ import ujson
 import random
 
 from argparse import ArgumentParser
-from bcqa.retriever.ColBERT.colbert.utils.utils import print_message, create_directory
-from bcqa.retriever.ColBERT.utility.utils.save_metadata import save_metadata
+from dexter.retriever.ColBERT.colbert.utils.utils import print_message, create_directory
+from dexter.retriever.ColBERT.utility.utils.save_metadata import save_metadata
 
 
 def main(args):
